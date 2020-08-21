@@ -6,8 +6,7 @@ namespace SuraCheckIn.API.Models
         public int Id { get; set; }
         public State Status { get; set; }
         public float Amount { get; set; }
-        
-        // eventoId
-        // userId
+        public Event Event { get; set; }
+        public int EventId { get; set; }
     }
 }
